@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  font-family: Arial;
+  border: border-box;
+}
+
+.navbar {
+  height: 50px;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid gainsboro;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-logo {
+  height: 40px;
+  width: 40px;
+  margin-left: 20px;
+}
+
+.logo {
+  /*background-image: url("logo.jpg");*/
+  background-color: gray;
+  background-size: cover;
+  height: 40px;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.name {
+  font-size: larger;
+  margin-left: 5px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  justify-content: end;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(92, 92, 92);
+  margin: 10px;
+  font-size: small;
+}
+
+nav a:hover {
+  color: #387ed1;
+}
+
+.getnotified-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #387ed1;
+}
+
+.getnotified-button:hover {
+  color: white;
+}
+
+.section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  margin-top: 10px;
+}
+
+.main {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  transition: transform 0.2s;
+  width: 500px;
+  height: 370px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  text-align: left;
+  color: #555;
+  font-weight: bold;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background-color: #387ed1;
+  width: 100%;
+  font-size: 16px;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

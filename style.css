@@ -32,10 +32,12 @@
   background-size: cover;
   height: 40px;
   width: 100%;
+  border-radius: 100%;
 }
 
 .name {
   font-size: larger;
+  margin-left: 5px;
 }
 
 nav {
@@ -77,10 +79,10 @@ nav a:hover {
 }
 
 .hero-section1 {
-  /*background-image: url("hero2.png");*/
-  background-color: gray;
+  background-image: url("img1.png");
+  /*background-color: gray;*/
   height: 400px;
-  width: 800px;
+  width: 47%;
   background-size: cover;
 }
 
@@ -130,17 +132,21 @@ nav a:hover {
 }
 
 .pic1 {
-  /*background-image: url("hero1.png");*/
-  background-color: gray;
+  background-image: url("img2.png");
+  /*background-color: gray;*/
   background-size: cover;
   height: 400px;
 }
 
 .display3 {
+  margin-top: 10px;
   margin-left: 100px;
   text-align: center;
 }
 
+.display4 {
+  margin-bottom: 10px;
+}
 .hero-section3 {
   margin-top: 75px;
   display: flex;
@@ -156,20 +162,34 @@ nav a:hover {
 }
 
 .pic3 {
-  /*background-image: url("https://zerodha.com/static/images/ecosystem.png");*/
-  background-color: gray;
+  background-image: url("img3.png");
+  /* background-color: gray; */
   background-size: cover;
-  height: 400px;
+  height: 100%;
+  width: 150%;
 }
 
 .display6 {
+  margin-top: 10px;
   justify-content: center;
-  margin-left: 100px;
+  /* margin-left: 100px; */
   text-align: center;
+}
+
+.display7 {
+  margin-bottom: 10px;
 }
 
 .footer {
   margin-top: 100px;
   background-color: gainsboro;
   height: 300px;
+}
+
+.display1 {
+  text-align: center;
+}
+
+.display2 {
+  margin-top: 10px;
 }
